@@ -37,7 +37,7 @@ La aplicación sigue estrictamente los principios de la arquitectura moderna de 
 ---
 *Yobani Arenas Castaño*
 
-
 *Universidad de Caldas - Facultad de Ingeniería*
+
 *Dispositivos móviles 2026 -1*
 
