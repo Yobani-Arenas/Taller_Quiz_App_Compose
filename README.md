@@ -1,8 +1,8 @@
-# Taller Práctico: Quiz Interactivo - Desarrollo Móvil
+# Taller_Quiz_App_Compose
 
 Este proyecto implementa un Quiz interactivo educativo sobre conceptos de Android y Kotlin, desarrollado bajo los estándares de la arquitectura MVVM y Jetpack Compose.
 
-## 🛠️ Arquitectura: MVVM y Flujo de Datos Unidireccional (UDF)
+## Arquitectura: MVVM y Flujo de Datos Unidireccional (UDF)
 
 La aplicación sigue estrictamente los principios de la arquitectura moderna de Android:
 
@@ -16,7 +16,7 @@ La aplicación sigue estrictamente los principios de la arquitectura moderna de 
 - **Procesamiento**: El ViewModel actualiza el estado interno (`MutableStateFlow`).
 - **Estado**: La UI observa el `StateFlow` mediante `collectAsState()` y se recompone automáticamente.
 
-## 🕹️ Funcionamiento del Aplicativo
+## Funcionamiento del Aplicativo
 
 1. **Pantalla de Inicio**: Punto de entrada que invita al usuario a iniciar el desafío.
 2. **Ciclo de Preguntas (10 Preguntas Técnicas)**:
@@ -27,7 +27,7 @@ La aplicación sigue estrictamente los principios de la arquitectura moderna de 
 3. **Navegación**: El usuario avanza con el botón "Siguiente", lo que limpia la selección previa y carga el nuevo estado.
 4. **Finalización**: Tras la última pregunta, se dispara un **`AlertDialog`** que resume el desempeño final y permite reiniciar el quiz, devolviendo al usuario a la pantalla inicial.
 
-## 📋 Requerimientos Técnicos Cumplidos
+## Requerimientos Técnicos Cumplidos
 
 - **Reactividad**: Uso de `StateFlow` para una UI siempre sincronizada.
 - **Inmutabilidad**: El estado nunca se modifica, se crea uno nuevo mediante `.copy()`, evitando efectos secundarios.
